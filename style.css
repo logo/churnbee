@@ -1,0 +1,21 @@
+
+/**
+ * ChurnBee logo.
+ */
+
+.logo[data-logo="ChurnBee"] {
+  width: 4.58707014214854em;
+}
+
+.logo[data-logo="ChurnBee"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0 0 0 0;
+}
+
+.logo[data-logo="ChurnBee"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="ChurnBee"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
